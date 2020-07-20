@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource
+name="jdbc"
+auth="Container"
+type="javax.sql.DataSource"
+driverClassName="oracle.jdbc.driver.OracleDriver"
+factory="org.apache.commons.dbcp2.BasicDataSourceFactory"
+url="jdbc:oracle:thin:@localhost:1521:xe"
+username="scott"
+password="tiger"
+maxAcive="500"
+maxIdle="100"
+maxWait="5000"
+removeAbandoned="true"
+testOnBorrow="true"/>
+</Context>
